@@ -108,6 +108,9 @@ WD-seatwork4
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|All image are from canva premium|
+
+|All image are from canva premium
+
 |Design & Layout|Reference from previous works|
+
 | Logo | Icon | (https://boxicons.com/) |
