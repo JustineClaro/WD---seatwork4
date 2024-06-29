@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+/* section 1*/
+
+.section-1{
+    height: 100vh;
+    background: url(/pages/feature-1/assets/img/feature-bg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.header{
+    margin-top: .5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 90px;
+    border-radius: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(87, 76, 76, 0.171);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    
+    & ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    & a {
+        color: antiquewhite;
+    }
+}
+
+.option-h a:hover{
+    transform: translate(0.3s);
+    color: yellowgreen;
+}
+.logo-h img{
+    width: 100%;
+    max-width: 50px;
+}
+
+.navbar-h button{
+    padding: 10px 2rem;
+    border-radius: 2rem;
+    border: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: antiquewhite;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+
+.navbar-h button:hover {
+    border: 2px solid rgb(50, 57, 99);
+    background-color: rgba(50, 57, 99, 0.8);
+    color: white;
+}
+
+
+
+/* section 1 hero*/
+.section-1{
+    display: flex;
+    padding-top: 25px;
+}
+
+.content-s1{
+
+    margin-top: 4rem;
+    width: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+
+    & h3{
+        font-weight: 700;
+        font-size: 4rem;
+        margin: 10px;
+    }
+
+    & h1{
+        margin: 20px;
+        color: yellowgreen;
+    }
+
+    & p{
+        margin: 1rem;
+    }
+}
+
+.content-s1 button{
+    padding: 10px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 1rem;
+    border-color: antiquewhite;
+    background-color: rgba(71, 69, 69, 0.741);
+    cursor: pointer;
+}
+
+.content-s1 button:hover{
+    text-shadow: 20px red;
+    
+}
+
+
+.content2-s1{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110vh;
+
+    & img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+/* section 2*/
+.section-2{
+    height: 100vh;
+    background: url(/pages/feature-1/assets/img/feature--bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content1-s2{
+    width: 50%;
+    padding: 20px 90px;
+    border-bottom: 2px yellowgreen;
+
+    & h6{
+        
+    margin-top: 6rem;
+        font-size: 20px;
+        letter-spacing: 1rem;
+        color: antiquewhite;
+    }
+
+    &  h6::after {
+        content: '';
+        display: block;
+        width: 400px;
+        height: 3px;
+        background-color: #a4c639;
+        margin: 10px 1px ;
+    }
+}
+
+
+.sports-grid {
+    width: 100%;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sport {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.sport p {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.sport.tennis {
+    border-radius: 1rem;
+    background: url(/pages/feature-1/assets/img/s2-1.png) no-repeat center center/cover;
+    
+}
+
+.sport.squash {
+    border-radius: 1rem;
+    background: url(/pages/feature-1/assets/img/s2-2.png) no-repeat center center/cover;
+}
+
+.sport.padel {
+    border-radius: 1rem;
+    background: url(/pages/feature-1/assets/img/s2-3.png) no-repeat center center/cover;
+}
+
+.sport.badminton {
+    border-radius: 1rem;
+    background: url(/pages/feature-1/assets/img/s2-4.png) no-repeat center center/cover;
+}
+
+/* Overlay effect */
+.sport::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+/* Specific background color for each sport */
+.sport.tennis::before {
+    background-color: rgba(0, 128, 0, 0.7); /* Green overlay */
+}
+
+.sport.squash::before {
+    background-color: rgba(255, 0, 0, 0.7); /* Red overlay */
+}
+
+.sport.padel::before {
+    background-color: rgba(255, 165, 0, 0.7); /* Orange overlay */
+}
+
+.sport.badminton::before {
+    background-color: rgba(0, 0, 255, 0.7); /* Blue overlay */
+}
+
+
+
+.sport:hover::before {
+    animation: hoverAnimation 0.3s forwards;
+}
+
+.sport:hover p {
+    animation: pHoverAnimation 0.3s forwards;
+}
+
+@keyframes hoverAnimation {
+    0% {
+        opacity: 0.7;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pHoverAnimation {
+    0% {
+        color: #fff;
+        transform: translateX(-50%) translateY(0);
+    }
+    100% {
+        color: yellowgreen;
+        font-weight: 700; 
+        transform: translateX(-50%) translateY(-10px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 3*/
+.section-3{
+    height: 100vh;
+    background: url(/pages/feature-1/assets/img/feature-bg-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-s3{
+    padding: 30vh 90px;
+    padding-left: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h3 {
+        color: antiquewhite;
+        font-size: 50px;
+    }
+
+    & h1{
+        color: yellowgreen;
+        font-size: 50px;
+    }
+
+    & p{
+        padding: 20px 60px;
+        color: antiquewhite;
+        font-size: 25px;
+    }
+}
+
+.text-s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-s3{
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+}
+
+
+.btn-s3 button{
+    padding: 8px 11px;
+    font-size: 20px;
+    color:black ;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    border: #000;
+    background-color: #a4c639;
+}
+
+.btn-s3 button:hover{
+    background-color: linear-gradient(red, yellow);
+    color: antiquewhite;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 4*/
+.section-4{
+    height: 100vh;
+    background: url(/pages/feature-1/assets/img/feature--bg-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.shuttlecocks {
+    background-image: url(/pages/feature-1/assets/img/s4-1.png); /* Replace with the actual path to the image */
+}
+
+.bags {
+    background-image: url(/pages/feature-1/assets/img/s4-2.png); /* Replace with the actual path to the image */
+}
+
+.strings {
+    background-image: url(/pages/feature-1/assets/img/s4-3.png); /* Replace with the actual path to the image */
+}
+
+.accessories {
+    background-image: url(/pages/feature-1/assets/img/s4-4.png); /* Replace with the actual path to the image */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    transition: background 0.5s ease-in-out;
+}
+
+.overlay span {
+    font-size: 20px;
+}
+
+/* Hover Animations */
+.item:hover {
+    transform: scale(1.1);
+}
+
+.shuttlecocks:hover .overlay {
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+.bags:hover .overlay {
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+.strings:hover .overlay {
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+.accessories:hover .overlay {
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer-column ul li:hover {
+    color: #a4c639;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icons .icon {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #a4c639;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-bottom p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-bottom ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom ul li {
+    font-size: 14px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-bottom ul li:hover {
+    color: #a4c639;
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
