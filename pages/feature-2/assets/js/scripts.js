@@ -9,7 +9,9 @@ function moveSlide(n) {
 }
 
 // Initialize the first slide
-moveSlide(0);
+document.addEventListener('DOMContentLoaded', () => {
+    moveSlide(0);
+});
 
 function scrollToSection(event) {
     event.preventDefault(); // Prevent the default link behavior
@@ -25,4 +27,3 @@ function scrollToSection(event) {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", scrollToSection);
 });
-
