@@ -10,7 +10,7 @@
 /* Section 1    */
 .section-1{
     height: 100vh;
-    background: url(/pages/feature-2/assets/img/f2-bg-s1.png);
+    background: url(../img/f2-bg-s1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +93,7 @@ span {
 /* Section 2     */
 .section-2{
     height: 100vh;
-    background: url(/pages/feature-1/assets/img/feature--bg-2.png);
+    background: url(../../../feature-1/assets/img/feature--bg-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -187,7 +187,7 @@ h1 {
 /* Section 3     */
 .section-3{
     height: 100vh;
-    background: url(/pages/feature-1/assets/img/feature--bg-3.png);
+    background: url(../../../feature-1/assets/img/feature--bg-3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -286,7 +286,7 @@ h2 {
 /* Section 4     */
 .section-4{
     height: 110vh;
-    background: url(/pages/feature-1/assets/img/feature--bg-4.png);
+    background: url(../../../feature-1/assets/img/feature--bg-4.png);
     background-size: cover; 
     background-repeat: no-repeat;
 background-position: top;
@@ -296,7 +296,7 @@ background-position: top;
 
 .content-s4{
     padding: 100px 150px;
-    background: url(/pages/feature-2/assets/img/f2-bg-s4.png);
+    background: url(../../assets/img/f2-bg-s4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;

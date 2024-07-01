@@ -13,7 +13,7 @@
 
 .section-1{
     height: 100vh;
-    background: url(/pages/feature-1/assets/img/feature-bg-1.png);
+    background: url(../img/feature-bg-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -145,7 +145,7 @@
 /* section 2*/
 .section-2{
     height: 100vh;
-    background: url(/pages/feature-1/assets/img/feature--bg-2.png);
+    background: url(../img/feature--bg-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -209,23 +209,23 @@
 
 .sport.tennis {
     border-radius: 1rem;
-    background: url(/pages/feature-1/assets/img/s2-1.png) no-repeat center center/cover;
+    background: url(../img/s2-1.png) no-repeat center center/cover;
     
 }
 
 .sport.squash {
     border-radius: 1rem;
-    background: url(/pages/feature-1/assets/img/s2-2.png) no-repeat center center/cover;
+    background: url(../img/s2-2.png) no-repeat center center/cover;
 }
 
 .sport.padel {
     border-radius: 1rem;
-    background: url(/pages/feature-1/assets/img/s2-3.png) no-repeat center center/cover;
+    background: url(../img/s2-3.png) no-repeat center center/cover;
 }
 
 .sport.badminton {
     border-radius: 1rem;
-    background: url(/pages/feature-1/assets/img/s2-4.png) no-repeat center center/cover;
+    background: url(../img/s2-4.png) no-repeat center center/cover;
 }
 
 /* Overlay effect */
@@ -311,7 +311,7 @@
 /* section 3*/
 .section-3{
     height: 100vh;
-    background: url(/pages/feature-1/assets/img/feature-bg-5.png);
+    background: url(../img/feature-bg-5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -397,7 +397,7 @@
 /* section 4*/
 .section-4{
     height: 100vh;
-    background: url(/pages/feature-1/assets/img/feature--bg-4.png);
+    background: url(../img/feature--bg-4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -422,19 +422,19 @@
 }
 
 .shuttlecocks {
-    background-image: url(/pages/feature-1/assets/img/s4-1.png); /* Replace with the actual path to the image */
+    background-image: url(../img/s4-1.png); /* Replace with the actual path to the image */
 }
 
 .bags {
-    background-image: url(/pages/feature-1/assets/img/s4-2.png); /* Replace with the actual path to the image */
+    background-image: url(../img/s4-2.png); /* Replace with the actual path to the image */
 }
 
 .strings {
-    background-image: url(/pages/feature-1/assets/img/s4-3.png); /* Replace with the actual path to the image */
+    background-image: url(../img/s4-3.png); /* Replace with the actual path to the image */
 }
 
 .accessories {
-    background-image: url(/pages/feature-1/assets/img/s4-4.png); /* Replace with the actual path to the image */
+    background-image: url(../img/s4-4.png); /* Replace with the actual path to the image */
 }
 
 .overlay {
