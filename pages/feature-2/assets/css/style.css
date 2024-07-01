@@ -28,9 +28,16 @@
     padding: 5px 10px;
     color: white;
     font-weight: 600;
- 
-
 }
+
+.nav-s1 a:hover,
+.nav-s1-2 a:hover{
+    border-radius: 2rem;
+    border: 2px solid rgb(50, 57, 99);
+    background-color: rgba(50, 57, 99, 0.8);
+    color: white;
+ }
+
 
 .logo-s1 img{
     width: 100%;
