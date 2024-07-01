@@ -57,13 +57,36 @@
 
 <!-- TODO: To be changed -->
 
-- Creation of different layout of Feature section
-- Landing Page
+Website the has different design and layout.showcasimg a sports racket product.
+
+Guiding Question:
+- Feature section
 - 3 Feature section per page
+- Landing Page
+- Creation of different layout of Feature section
 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
+
+Responsive Design:
+Ensures the website is accessible and looks good on all devices, from desktops to mobile phones.
+
+Feature Section Layouts:
+Layout 1: A grid display with large images and brief descriptions for each racket.
+Includes call-to-action buttons like "Learn More" or "Buy Now".
+Layout 2: A carousel/slider format that allows users to swipe through different rackets.
+Provides a dynamic and interactive user experience.
+
+Interactive UI Elements:
+Dynamic content updates without page reloads using JavaScript and AJAX.
+Forms with client-side validation.
+
+Product Descriptions:
+Detailed descriptions highlighting the features and benefits of each racket.
+Key specifications like weight, material, and grip size.
+User reviews and ratings for credibility.
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -103,14 +126,11 @@ WD-seatwork4
 └─ index.html
 └─ readme.md
 ```
-
 ## Resources
-
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
+|-|-|-|
+|Logo| Icons desgin. | [trykolang.com ](https://boxicons.com/)|
+| Image | All image that are used are frome canva | [trykolang.com](https://www.canva.com/) |
 
-|All image are from canva premium
 
-|Design & Layout|Reference from previous works|
-
-| Logo | Icon | (https://boxicons.com/) |
