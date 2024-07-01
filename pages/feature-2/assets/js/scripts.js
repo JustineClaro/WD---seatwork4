@@ -8,10 +8,11 @@ function moveSlide(n) {
     slides.style.transform = `translateX(-${slideIndex * 100}%)`;
 }
 
-// Initialize the first slide
+
 document.addEventListener('DOMContentLoaded', () => {
     moveSlide(0);
 });
+
 
 function scrollToSection(event) {
     event.preventDefault(); // Prevent the default link behavior
