@@ -131,6 +131,6 @@ WD-seatwork4
 | Title | Purpose | Link |
 |-|-|-|
 |Logo| Icons desgin. | [trykolang.com ](https://boxicons.com/)|
-| Image | All image that are used are frome canva | [trykolang.com](https://www.canva.com/) |
+| Image | All image that are used are frome canva | (https://www.canva.com/) |
 
 
