@@ -28,6 +28,7 @@
     padding: 5px 10px;
     color: white;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .nav-s1 a:hover,
@@ -177,6 +178,135 @@ h1 {
 
 
 
+/* FEATURE 1*/
+
+
+.feature1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,yellowgreen, #050710,#050710);
+}
+.container {
+    max-width: 960px;
+}
+
+.display-4 h1{
+
+    font-size: 50px;
+    font-family: 900;
+    color: whitesmoke;
+}
+.order-md-2 {
+    text-align: center;
+}
+
+
+.feature2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,#050710,#050710,#050710,#050710,#050710,yellowgreen );
+}
+
+.feature-2 {
+    width: 100%;
+    padding: 10% 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f2-img {
+    flex: 1;
+    margin-right: 20px; /* Add some space between the image and text */
+}
+
+.f2-text {
+    flex: 1;
+    margin-left: 20px; /* Add some space between the text and image */
+}
+
+.f2-text h2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.f2-text h1 {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.f2-text p {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: antiquewhite;
+    font-size: 25px;
+    word-wrap: break-word;
+    border-radius: 2rem;
+}
+
+.f2-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 95%;
+
+  
+}
+
+.btn-s3-f2{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem   ;
+    margin-right: 4rem;
+}
+
+.btn-s3-f2 button{
+
+    padding: 8px 11px;
+    font-size: 20px;
+    color:whitesmoke ;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    border: #000;
+    background-color: black;
+}
+
+.btn-s3-f2 button:hover{
+    background-color: linear-gradient(red, yellow);
+    color: antiquewhite;
+    -webkit-transform: scale(1.2);
+    
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,8 +334,21 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    font-weight: normal;
+    font-weight: 600;
     color: white;
+}
+.container {
+
+
+
+    & h2{
+        color: yellowgreen;
+    }
+
+    & p {
+        color: #ccc;
+        padding: 20px 70px;
+    }
 }
 
 .underline {

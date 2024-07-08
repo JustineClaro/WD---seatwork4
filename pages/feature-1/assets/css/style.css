@@ -96,29 +96,34 @@
     }
 
     & h1{
-        margin: 20px;
+        margin: 5px;
         color: yellowgreen;
     }
 
     & p{
+        text-align: center;
         margin: 1rem;
     }
 }
 
+
 .content-s1 button{
-    padding: 10px;
-    color: antiquewhite;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    color: black;
     font-size: 20px;
-    font-weight: 600px;
+    font-weight: bolder;
     border-radius: 1rem;
-    border-color: antiquewhite;
-    background-color: rgba(71, 69, 69, 0.741);
+    border-color: black;
+    background-color: yellowgreen;
+    transition: ease 0.3s;
     cursor: pointer;
 }
 
 .content-s1 button:hover{
-    text-shadow: 20px red;
-    
+    background-color: black;
+    color: white;
+    border: 2px solid yellowgreen
 }
 
 
@@ -370,9 +375,195 @@
     background-color: linear-gradient(red, yellow);
     color: antiquewhite;
     -webkit-transform: scale(1.2);
+    
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+
+
+/* FEATURE 2*/
+
+.section-3-f2{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/d1-f2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.feature-2 {
+    width: 100%;
+    padding: 10% 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f2-img {
+    flex: 1;
+    margin-right: 20px; /* Add some space between the image and text */
+}
+
+.f2-text {
+    flex: 1;
+    margin-left: 20px; /* Add some space between the text and image */
+}
+
+.f2-text h2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.f2-text h1 {
+    text-align: center;
+    color: yellowgreen;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.f2-text p {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: antiquewhite;
+    font-size: 25px;
+    word-wrap: break-word;
+    border-radius: 2rem;
+}
+
+.f2-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+
+  
+}
+
+.btn-s3-f2{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem   ;
+    margin-right: 4rem;
+}
+
+.btn-s3-f2 button{
+
+    padding: 8px 11px;
+    font-size: 20px;
+    color:black ;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    border: #000;
+    background-color: #a4c639;
+}
+
+.btn-s3-f2 button:hover{
+    background-color: linear-gradient(red, yellow);
+    color: antiquewhite;
+    -webkit-transform: scale(1.2);
+    
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* Feature 3*/
+
+
+.section-3-f3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #050710, rgba(0, 0, 0, 0.658),#050710);
+}
+
+
+
+.feature-3{
+    width: 100%;
+    padding: 20vh 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f3-text{
+
+    text-align: center;
+
+
+    & h2{
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: antiquewhite;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    & h1{
+        text-align: center;
+        color: yellowgreen;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    & p{
+        
+        padding: 20px 80px;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: antiquewhite;
+        font-size: 25px;
+        word-wrap: break-word;
+        border-radius: 2rem;
+    }
+}
+
+.btn-s3-f3{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.btn-s3-f3 button{
+    padding: 8px 11px;
+    font-size: 20px;
+    color:black ;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    border: #000;
+    background-color: #a4c639;
+}
+
+.btn-s3-f3 button:hover{
+    background-color: linear-gradient(red, yellow);
+    color: antiquewhite;
+    -webkit-transform: scale(1.2);
+    
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.f3-img{
+    width: 100%;
+    max-width: 700px;
+}
+
 
 
 
